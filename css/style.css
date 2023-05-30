@@ -16,6 +16,7 @@
   --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
 
   --primary-color: #b1454a;
+  --primary-color-creamson: #fff0de;
   --secondary-color: #121212;
 
   --black-200: #020202;
@@ -71,7 +72,7 @@ a {
 }
 
 .sushi__title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   font-family: var(--playfair-display);
 

@@ -12,12 +12,35 @@
   overflow: hidden;
 }
 
+.popular-foods-creamson {
+  padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--primary-color-creamson);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  overflow: hidden;
+}
+
 .popular-foods__title {
   font-size: 56px;
   font-family: var(--playfair-display);
   font-weight: 600;
   line-height: 78px;
   color: #fff;
+  text-align: center;
+}
+
+.popular-foods-creamson__title {
+  font-size: 56px;
+  font-family: var(--playfair-display);
+  font-weight: 600;
+  line-height: 78px;
+  color: black;
   text-align: center;
 }
 
