@@ -47,28 +47,123 @@
           <p class="sushi__subtitle">About Us</p>
           <h3 class="sushi__title">ReactJS</h3>
           <p class="sushi__description">
-            ReactJS è una libreria JavaScript open-source utilizzata per la creazione di interfacce utente (UI) dinamiche e interattive. È stata sviluppata da Facebook e ha guadagnato molta popolarità nella comunità degli sviluppatori web.</br></br>Argomenti:</br> ● Stati</br> ● NavBar</br> ● Ricerca per elemento</br> ● Passaggio di parametri con l'URL</br> ● Passaggio di parametri tramite get e post</br> ● useRef</br> ● Event</br> ● RouterDom</br> ● Variabili d'ambiente</br> ● Context</p>
+            ReactJS è una libreria JavaScript open-source utilizzata per la creazione di interfacce utente (UI) dinamiche e interattive. È stata sviluppata da Facebook e ha guadagnato molta popolarità nella comunità degli sviluppatori web.</br></br>Argomenti:</br> ● Stati</br> ● NavBar</br> ● Ricerca per elemento</br> ● Passaggio di parametri con l'URL</br> ● Passaggio di parametri tramite get e post</br> ● useRef</br> ● Event</br> ● RouterDom</br> ● Variabili d'ambiente</br> ● Context
+          </p>
         </div>
       </section>
 
       <section class="popular-foods" id="menu">
-        <h2 class="popular-foods__title" data-aos="flip-up">Stati</h2>
-  
-
-        
+        <h2 class="popular-foods__title" data-aos="flip-up">Introduzione</h2>
+        <p class="sushi__description__red">
+          React è una libreria per la creazione di siti web su singola pagina. I siti React si aggiornano in background senza dover ricaricare la pagina. È adatto per gestire registri, magazzini, ordinazioni e social network. Offre modularità e la possibilità di importare moduli per funzionalità aggiuntive come la gestione di PDF o la creazione di grafici.
+        </p>
+        <p class="sushi__subtitle__red">Installazione</br></br></p>
+        <!-- INSTALLAZIONE -->
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>
+              Controllo della versione dell'npm
+            </p>
+          </li>
+        </ul>
+        <pre>
+          <code>
+            npm -v
+          </code>
+        </pre>
+        <!-- POSSIBILE ERRORE -->
+        <p class="sushi__description__red">
+          Potremmo riscontrare un problema con la versione dell'npm che ci impedisce di creare un nuovo progetto.</br>Soluzione:
+        </p>
+        <pre>
+          <code>
+            sudo npm install -g n
+          </code>
+          <code>
+            sudo n stable
+          </code>
+        </pre>
+        <!-- CREAZIONE PRIMO PROGETTO -->
+        <p class="sushi__subtitle__red"></br></br>Creazione primo progetto</br></br></p>
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>
+              Installazione del progetto base
+            </p>
+          </li>
+        </ul>
+        <!-- COMANDI -->
+        <pre>
+          <code>
+            npm create-react-app nomeProgetto
+          </code>
+        </pre>
+        <!-- AVVIO NUOVO PROGETTO -->
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>
+              Avvio del progetto base scaricato
+            </p>
+          </li>
+        </ul>
+         <!-- COMANDI -->
+         <pre>
+          <code>
+            npm start
+          </code>
+        </pre>
+        <!-- PREPARAZIONE AMBIENTE DI LAVORO -->
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>
+              Cancellare il contenuto del file "App.js".
+            </p>
+          </li>
+        </ul>
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>
+              Cancellare il contenuto del file "App.css"
+            </p>
+          </li>
+        </ul>
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>
+              Rimuovere i tag <React.StrictMode></React.StrictMode> lasciando solo <App/> per evitare problemi con i controlli
+            </p>
+          </li>
+        </ul>
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>
+              Eliminare tutti i file di test
+            </p>
+          </li>
+        </ul>
       </section>
-      <section class="popular-foods-creamson" id="menu">
-        <h2 class="popular-foods-creamson__title" data-aos="flip-up">NavBar</h2>
-  
-
-        
-      </section>
-      <section class="popular-foods" id="menu">
-        <h2 class="popular-foods__title" data-aos="flip-up">Ricerca per elemento</h2>
-  
-
-        
-      </section>
+      
       <section class="popular-foods-creamson" id="menu">
         <h2 class="popular-foods-creamson__title" data-aos="flip-up">Passaggio di parametri con l'URL</h2>
   

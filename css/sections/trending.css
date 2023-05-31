@@ -76,6 +76,14 @@
   background-color: var(--primary-color);
 }
 
+.trending__icon__red {
+  width: 24px;
+  height: 24px;
+
+  border-radius: 100%;
+  background-color: var(--white-color);
+}
+
 .trending__icon img {
   width: 50%;
   height: 50%;
@@ -89,6 +97,15 @@
   font-family: var(--plus-jakarta-sans);
 
   color: var(--secondary-color);
+}
+
+.trending__list__red p {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+
+  color: var(--color-white);
 }
 
 .trending__image {
