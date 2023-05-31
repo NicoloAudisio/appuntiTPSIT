@@ -165,9 +165,52 @@
       </section>
       
       <section class="popular-foods-creamson" id="menu">
-        <h2 class="popular-foods-creamson__title" data-aos="flip-up">Passaggio di parametri con l'URL</h2>
-  
+        <h2 class="popular-foods-creamson__title" data-aos="flip-up">Target</h2>
+        <p class="sushi__description"></br></br>Attraverso i target ci è possibile restituire il valore di un elemento selezionato, tramite una funziona</br></br></p>
+        <pre>
+          <code>
+            import React, {useRef} from 'react'
+                      
+            // creazione della nostra applicazione
+            const App = () =&gt; {
 
+              // funzione cliccami
+              const cliccami =(event) =&gt; {
+                // alert collegato al div
+                alert(event.target.textContent)
+              }
+
+              // funzione cliccami 2
+              const cliccami2 =(event) =&gt; {
+                // alert nome
+                alert(event.target.dataset.nome)
+              }
+
+              // stampa a video
+              return (
+                &lt;div&gt;
+                  {/* Event target */}
+                  &lt;div onClick={cliccami}&gt;
+                    &lt;p&gt;Hola&lt;/p&gt;
+                    &lt;div&gt;Ciao&lt;/div&gt;
+                    &lt;p&gt;Bonjour&lt;/p&gt;
+                  &lt;/div&gt;
+
+                  &lt;div class="p" onClick={cliccami2} className="card-img"&gt;
+                    {/* alle immagini aggiungo un attributo personalizzato "data-nome" */}
+                    &lt;img data-nome = "Ducati Panigale V4 S" src="https://hd2.tudocdn.net/1064315?w=1920" width="400vh" alt=""/&gt;
+                    &lt;img data-nome = "Ducati Multistrada" src="https://smanettoni.net/wp-content/uploads/2021/10/Ducati-Multistrada
+                    -V4-Pikes-Peak-2022-01.jpg" width="350vh" alt=""/&gt;
+                    &lt;img data-nome = "Ducati Hypermotard" src="https://www.ducatimilano.it/wp-content/uploads/2018/11/Hypermotard-SP
+                    -MY2021-Dinamiche-14-gallery-1920x1080.jpg" width="300vh" alt=""/&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              )
+            }
+
+            export default App
+          </code>
+        </pre>
         
       </section>
       <section class="popular-foods" id="menu">
